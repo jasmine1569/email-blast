@@ -1,4 +1,7 @@
+// DEFAULTS
 @import 'settings';
-@import 'foundation-emails';
+@import 'foundation';
 
-@import 'template/template';
+// META COMPONENTS
+@import 'components/buttons';
+@import 'components/helpers';

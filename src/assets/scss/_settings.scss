@@ -16,6 +16,9 @@
 // 1. Global
 // ---------
 
+// Import LATO, META's alternative webfont choice for DIN
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
 $primary-color: #2199e8;
 $secondary-color: #777777;
 $success-color: #3adb76;
@@ -30,8 +33,11 @@ $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $light-gray;
-$container-background: $white;
+$body-background: #eaeced;
+$container-background: transparent;
+$global-font-color: #4a4a4a;
+$body-font-family: "Lato", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
@@ -43,7 +49,6 @@ $global-breakpoint: $global-width + $global-gutter;
 
 $grid-column-count: 12;
 $column-padding-bottom: $global-padding;
-$container-radius: 0;
 
 // 3. Block Grid
 // -------------
@@ -54,15 +59,13 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
-$global-font-weight: normal;
+$global-font-weight: 400;
 $header-color: inherit;
 $global-line-height: 1.3;
 $global-font-size: 16px;
-$body-line-height: $global-line-height;
+$body-line-height: 1.8;
 $header-font-family: $body-font-family;
-$header-font-weight: $global-font-weight;
+$header-font-weight: 300;
 $h1-font-size: 34px;
 $h2-font-size: 30px;
 $h3-font-size: 28px;
@@ -82,7 +85,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
+$hr-border: 1px solid $medium-gray;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;

@@ -1,0 +1,31 @@
+$brand-red: #ce1126;
+
+table.button.brand {
+  table {
+    td {
+      background: transparent;
+      border: 1px solid $brand-red;
+    }
+
+    a {
+      border: 0;
+      font-weight: 400;
+      letter-spacing: 3px;
+      font-size: 14px;
+      color: $brand-red;
+      padding: 12px;
+    }
+  }
+}
+
+table.button.brand:hover {
+  table {
+    td {
+      background: $brand-red;
+    }
+
+    a {
+      font-weight: 300;
+    }
+  }
+}
